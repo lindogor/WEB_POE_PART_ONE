@@ -6,7 +6,7 @@ A33 — Website Development Project (WEDE5020 Portfolio of Evidence)
 ## Student Information
 - **Name:** Lindokuhle Gorata
 - **Student Number:** ST10492836
-- **Module:** WEDE5020 — Website Development and Evaluation
+- **Module:** WEDE5020 — Website Development
 - **Institution:** Rosebank College
 
 ## Project Overview
