@@ -1,0 +1,51 @@
+<svg width="680" height="420" viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>A33 website sitemap</title>
+<desc>Hierarchical sitemap showing the homepage linking to About, Menu &amp; Gallery, Enquiry and Contact pages.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#262220" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<rect width="680" height="420" fill="#FFFFFF"/>
+
+<g>
+  <rect x="260" y="30" width="160" height="56" rx="8" fill="#F5CBAE" stroke="#C1602E" stroke-width="1"/>
+  <text x="340" y="52" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#4A1B0C">Home</text>
+  <text x="340" y="70" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#712B13">index.html</text>
+</g>
+
+<line x1="340" y1="86" x2="340" y2="120" stroke="#262220" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="340" y1="120" x2="80" y2="120" stroke="#262220" stroke-width="0.5" fill="none"/>
+<line x1="340" y1="120" x2="230" y2="120" stroke="#262220" stroke-width="0.5" fill="none"/>
+<line x1="340" y1="120" x2="450" y2="120" stroke="#262220" stroke-width="0.5" fill="none"/>
+<line x1="340" y1="120" x2="600" y2="120" stroke="#262220" stroke-width="0.5" fill="none"/>
+<line x1="80" y1="120" x2="80" y2="150" stroke="#262220" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="230" y1="120" x2="230" y2="150" stroke="#262220" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="450" y1="120" x2="450" y2="150" stroke="#262220" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="600" y1="120" x2="600" y2="150" stroke="#262220" stroke-width="1" marker-end="url(#arrow)"/>
+
+<g>
+  <rect x="10" y="150" width="140" height="56" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="1"/>
+  <text x="80" y="172" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#04342C">About</text>
+  <text x="80" y="190" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#085041">about.html</text>
+</g>
+
+<g>
+  <rect x="160" y="150" width="140" height="56" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="1"/>
+  <text x="230" y="172" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#04342C">Menu &amp; Gallery</text>
+  <text x="230" y="190" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#085041">services.html</text>
+</g>
+
+<g>
+  <rect x="380" y="150" width="140" height="56" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="1"/>
+  <text x="450" y="172" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#04342C">Enquiry</text>
+  <text x="450" y="190" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#085041">enquiry.html</text>
+</g>
+
+<g>
+  <rect x="530" y="150" width="140" height="56" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="1"/>
+  <text x="600" y="172" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#04342C">Contact</text>
+  <text x="600" y="190" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#085041">contact.html</text>
+</g>
+
+<text x="340" y="250" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#3A342F">Global navigation links every page to the other four.</text>
+<text x="340" y="270" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#3A342F">Root folder also contains /css, /js and /images subfolders.</text>
+</svg>

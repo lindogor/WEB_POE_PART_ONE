@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquire | A33</title>
+  <meta name="description" content="Enquire about private events, exhibitions or product orders at A33 in Cape Town.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-wrapper">
+      <a href="index.html" class="logo">A33</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Menu &amp; Gallery</a></li>
+          <li><a href="enquiry.html">Enquire</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="padding: 60px 24px;">
+      <h1>Enquire</h1>
+      <p>Planning an event, interested in exhibiting, or have a question about an order? Tell us about it below.</p>
+    </section>
+
+    <section class="section section-alt">
+      <div class="form-wrapper">
+        <form id="enquiry-form" novalidate>
+
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+
+          <div class="form-group">
+            <label for="enquiry-type">Enquiry Type *</label>
+            <select id="enquiry-type" name="enquiry-type" required>
+              <option value="">Select an option</option>
+              <option value="event">Private Event Booking</option>
+              <option value="exhibition">Exhibiting / Gallery Enquiry</option>
+              <option value="product">Product / Shop Order</option>
+              <option value="general">General Enquiry</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="preferred-date">Preferred Date (if applicable)</label>
+            <input type="date" id="preferred-date" name="preferred-date">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" required placeholder="Tell us a bit more about what you need..."></textarea>
+          </div>
+
+          <p class="form-note">* Required fields. We usually respond within 2 business days.</p>
+
+          <button type="submit" class="btn">Send Enquiry</button>
+          <p id="form-feedback" style="margin-top: 16px; font-weight: bold;"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 A33. 7 Orphan Street, Cape Town City Centre.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Menu &amp; Gallery</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
