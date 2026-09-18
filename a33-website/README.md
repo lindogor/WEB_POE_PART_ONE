@@ -47,6 +47,19 @@ The website was chosen and approved as the Part 1 project proposal (see `/docs/P
 ## Part 1 Details
 Part 1 covered the project proposal stage: selecting and researching a target organisation (A33), defining goals and objectives, and submitting a formatted Word/PDF proposal for lecturer approval. That proposal document is retained separately and is not duplicated in this repository. Part 2 and Part 3 will build on this initial HTML structure with further styling, functionality and evaluation, and will be reflected in future commits and edits to this README.
 
+## Part 2 Details
+Part 2 focused on the implementation stage of the website, where the approved concept was transformed into a working static front-end. The project was built as a five-page website using HTML, CSS and JavaScript, with a consistent visual identity and navigation structure across all pages.
+
+Key work included:
+- Creating the full website structure for the Home, About, Menu & Gallery, Enquiry and Contact pages
+- Designing a responsive, mobile-first layout that adapts across desktop, tablet and mobile screen sizes
+- Applying a cohesive brand style using a warm café-inspired palette, editorial typography and clear section hierarchy
+- Developing reusable page components, including the header, navigation, content blocks and footer
+- Implementing front-end interactivity such as form validation, inline user feedback and supporting page behaviours through JavaScript
+- Ensuring the site communicates A33's brand, offerings and customer journey clearly and professionally
+
+This stage establishes the foundation for future enhancements in Part 3, which will focus on advanced refinement, evaluation and final improvements to the website.
+
 ## Sitemap
 See `/docs/sitemap.svg` for the visual sitemap. In summary:
 
